@@ -1,0 +1,40 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+main{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  min-height:100vh;
+  margin:0;
+}
+
+h1, ul{
+  font-family:arial;
+}
+
+button{
+  background:none;
+  border:none;
+  cursor:pointer;
+}
+
+ul{
+  list-style-type:none;
+  padding:0;
+}
+
+ul li{
+  border-bottom:1px solid lightgrey;
+  padding:10px;
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+}
+
+.filled{
+  color:red;
+}
